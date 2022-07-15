@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./lib/ui-components-master/ChiefSlider/chief-slider.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header header-window"></header>
+    <container class="container">
+        <div class="item">
+            <div class="grey-bckg">
+                <div class="box">
+                    <div class="grey-bckg-title">Blog Page</div>
+                    <div class="grey-bckg-navigate">
+                        <a href="./index.html" class="grey-bckg-navigate-home">Home</a>
+                        <p>.</p>
+                        <a href="./blog.html" class="grey-bckg-navigate-page">Blog Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="container__blog slider">
+                    <div class="container__blog-page">
+                        <div class="slider__wrapper">
+                            <div class="container__blog-page-items slider__items">
+                                <section class="container__blog-page-items-item section-window-1 slider__item" data-section="1" id="section-1"o></section>
+                                <section class="container__blog-page-items-item slider__item" data-section="2" id="section-2"o></section>
+                                <section class="container__blog-page-items-item slider__item" data-section="3" id="section-3"o></section>
+                                <section class="container__blog-page-items-item slider__item" data-section="4" id="section-4"o></section>
+                            </div>
+                        </div>
+                        
+                        <div class="container__blog-page slider__indicators">
+                            <li class="container__blog-page-link navigate-links scroll-nav" data-section="1" id="section-1" data-slide-to="1">1</li>
+                            <li class="container__blog-page-link navigate-links scroll-nav" data-section="2" id="section-2" data-slide-to="2">2</li>
+                            <li class="container__blog-page-link navigate-links scroll-nav" data-section="3" id="section-3" data-slide-to="3">3</li>
+                            <li class="container__blog-page-link navigate-links scroll-nav" data-section="4" id="section-4" data-slide-to="4">4</li>
+                        </div>
+                    </div>
+                    <div class="container__blog-menu blog-menu-window">
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container__img">
+                <div class="container__img-box" style="margin-bottom: 112px;"></div>
+            </div>
+        </div>
+    </container>
+    <footer class="footer footer-window"></footer>
+    <script defer src="./lib/ui-components-master/ChiefSlider/chief-slider.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const slider = new ChiefSlider('.slider', {
+            loop: true,
+            autoplay: false,
+            refresh: true,
+            swipe: true,
+        });
+        });
+    </script>
+    <script src="./js/header/header.js"></script>
+    <script src="./js/blog/blog-page.js"></script>
+    <script src="./js/footer/footer.js"></script>
+</body>
+</html>
