@@ -4,4 +4,4 @@
 <li>Наличие адаптива до 320px</li>
 <li>Использовалась методология БЭМ</li>
 
-https://rawcdn.githack.com/Rustam8953/qwerty/133c1d43b35863984a3963bb8c22441bf132a05d/cd-md-01/index.html
+https://rawcdn.githack.com/Rustam8953/hekto/49025e32f5383fdcb24e2f7bd24c46bf16c63fb4/index.html
