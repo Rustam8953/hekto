@@ -109,6 +109,7 @@ $navigateBlogColor: #E0D3F5;
         &-info {
             display: flex;
             color: white;
+            align-items: center;
             &-down {
                 display: flex;
                 align-items: center;
@@ -148,6 +149,8 @@ $navigateBlogColor: #E0D3F5;
             &-cart {
                 display: flex;
                 align-items: center;
+                position: relative;
+                height: 30px !important;
                 &-icon {
                     display: flex;
                     align-items: center;
@@ -379,7 +382,6 @@ $navigateBlogColor: #E0D3F5;
             }
             &-navigate {
                 display: flex;
-                padding-top: 53px;
                 justify-content: center;
                 &-item {
                     width: 16px !important;
@@ -442,6 +444,7 @@ $navigateBlogColor: #E0D3F5;
                             font-family: 'Josefine Sans', sans-serif;
                             color: $textItemColor;
                             align-items: center;
+                            cursor: pointer;
                             &-full {
                                 font-size: 12px;
                                 color: $pinkBckgColor;
@@ -1651,6 +1654,113 @@ $navigateBlogColor: #E0D3F5;
     }
 }
 
+.cart {
+    color: $textGreyColor;
+    &-wrapper {
+        width: 400px;
+        height: auto;
+        background-color: white;
+        position: absolute;
+        right: 0px;
+        top: 42px;
+        border: 1px solid $accountBorderColor;
+        border-radius: 8px;
+    }
+    &-length {
+        width: 10px;
+        height: 10px;
+        font-size: 9px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: absolute;
+        right: 2px;
+        top: 2px;
+    }
+    &-block {
+        &-item {
+            color: $textItemColor;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            align-items: center;
+            &-left {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            &-right {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            &-img {
+                width: 45px;
+                height: 45px;
+                background-size: cover;
+                background-position: center;
+            }
+            &-title {
+                font-weight: 700;
+                font-size: 18px;
+            }
+            &-current {
+                display: flex;
+                gap: 5px;
+                color: $textGreyColor;
+                font-size: 14px;
+                align-items: center;
+                &-plus {
+                    width: 16px;
+                    height: 16px;
+                    &::before {
+                        content: url('./../img/icon/bar-icon/akar-icons_chevron-down.svg');
+                        font-size: 14px;
+                        background-color: $textGreyColor;
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                &-minus {
+                    width: 16px;
+                    height: 16px;
+                    &::before {
+                        content: url('./../img/icon/bar-icon/akar-icons_chevron-down.svg');
+                        display: inline-block;
+                        background-color: $textGreyColor;
+                        transform: rotate(180deg);
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+        &-text {
+            color: $textGreyColor;
+            padding: 20px;
+        }
+        &-border {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            border-bottom: 1px solid $inputBorder;
+        }
+    }
+    &-fun {
+        padding: 20px;
+        display: flex;
+        color: $textGreyColor;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid $borderInputBlogPage;
+    }
+}
+
 @media (max-width: 1440px) {
     .box {
         width: 1000px !important;
@@ -2317,9 +2427,11 @@ $navigateBlogColor: #E0D3F5;
                         &-point {
                             font-size: 12px;
                             padding: 17px 0 14px;
-                            grid-template-columns: repeat(1, 180px);
+                            grid-template-columns: repeat(1, 300px);
+                            grid-template-rows: repeat(4, 16px) !important;
                             &-item {
-                                width: 180px;
+                                width: 300px;
+                                height: 16px;
                             }
                         }
                         &-text {
@@ -2519,4 +2631,8 @@ input {
 
 .menu-active  {
     transform: translateX(0%);
+}
+
+.display-none {
+    display: none;
 }

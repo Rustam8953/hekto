@@ -85,6 +85,7 @@
 .header__bar-info {
   display: flex;
   color: white;
+  align-items: center;
 }
 
 .header__bar-info-down {
@@ -133,6 +134,8 @@
 .header__bar-info-cart {
   display: flex;
   align-items: center;
+  position: relative;
+  height: 30px !important;
 }
 
 .header__bar-info-cart-icon {
@@ -395,7 +398,6 @@
 
 .container__products-featured-navigate {
   display: flex;
-  padding-top: 53px;
   justify-content: center;
 }
 
@@ -470,6 +472,7 @@
   font-family: 'Josefine Sans', sans-serif;
   color: #151875;
   align-items: center;
+  cursor: pointer;
 }
 
 .container__products-latest-items-item-info-price-full {
@@ -1850,6 +1853,126 @@
   content: url("./../img/icon/footer/akar-icons_twitter-fill.svg");
 }
 
+.cart {
+  color: #72718F;
+}
+
+.cart-wrapper {
+  width: 400px;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  top: 42px;
+  border: 1px solid #C2C5E1;
+  border-radius: 8px;
+}
+
+.cart-length {
+  width: 10px;
+  height: 10px;
+  font-size: 9px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+.cart-block-item {
+  color: #151875;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.cart-block-item-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-block-item-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cart-block-item-img {
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  background-position: center;
+}
+
+.cart-block-item-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.cart-block-item-current {
+  display: flex;
+  gap: 5px;
+  color: #72718F;
+  font-size: 14px;
+  align-items: center;
+}
+
+.cart-block-item-current-plus {
+  width: 16px;
+  height: 16px;
+}
+
+.cart-block-item-current-plus::before {
+  content: url("./../img/icon/bar-icon/akar-icons_chevron-down.svg");
+  font-size: 14px;
+  background-color: #72718F;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.cart-block-item-current-minus {
+  width: 16px;
+  height: 16px;
+}
+
+.cart-block-item-current-minus::before {
+  content: url("./../img/icon/bar-icon/akar-icons_chevron-down.svg");
+  display: inline-block;
+  background-color: #72718F;
+  transform: rotate(180deg);
+  width: 16px;
+  height: 16px;
+}
+
+.cart-block-text {
+  color: #72718F;
+  padding: 20px;
+}
+
+.cart-block-border {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E7E6EF;
+}
+
+.cart-fun {
+  padding: 20px;
+  display: flex;
+  color: #72718F;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #BDBDD8;
+}
+
 @media (max-width: 1440px) {
   .box {
     width: 1000px !important;
@@ -2400,10 +2523,12 @@
   .container__products-discount-item-info-point {
     font-size: 12px;
     padding: 17px 0 14px;
-    grid-template-columns: repeat(1, 180px);
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(4, 16px) !important;
   }
   .container__products-discount-item-info-point-item {
-    width: 180px;
+    width: 300px;
+    height: 16px;
   }
   .container__products-discount-item-info-text {
     font-size: 12px;
@@ -2582,4 +2707,8 @@ input {
 
 .menu-active {
   transform: translateX(0%);
+}
+
+.display-none {
+  display: none;
 }

@@ -49,25 +49,25 @@ const featuredItemsSectionA = [
 
 const featuredItemsSectionB = [
     {
-        id: 1,
+        id: 5,
         title: "Cantilever chair",
         price: "42.00",
         img: "image\ 1168.png"
     },
     {
-        id: 2,
+        id: 6,
         title: "Cantilever chair",
         price: "42.00",
         img: "image\ 1.png"
     },
     {
-        id: 3,
+        id: 7,
         title: "Cantilever chair",
         price: "42.00",
         img: "image\ 1169.png"
     },
     {
-        id: 4,
+        id: 8,
         title: "Cantilever chair",
         price: "42.00",
         img: "image\ 3.png"
@@ -76,25 +76,25 @@ const featuredItemsSectionB = [
 
 const featuredItemsSectionC = [
     {
-        id: 1,
+        id: 9,
         title: "Cantilever chair",
         price: "42.00",
         img: "image\ 1168.png"
     },
     {
-        id: 2,
+        id: 10,
         title: "Cantilever chair",
         price: "42.00",
         img: "image\ 1.png"
     },
     {
-        id: 3,
+        id: 11,
         title: "Cantilever chair",
         price: "42.00",
         img: "image\ 1169.png"
     },
     {
-        id: 4,
+        id: 12,
         title: "Cantilever chair",
         price: "42.00",
         img: "image\ 3.png"
@@ -103,28 +103,28 @@ const featuredItemsSectionC = [
 
 const trendingsItems = [
     {
-        id: 1,
+        id: 13,
         img: 'image\ 1171.png',
         price: '42.00',
         sale: '22.00',
         title: 'Cantilever chair',
     },
     {
-        id: 2,
+        id: 14,
         img: 'image\ 1170.png',
         price: '42.00',
         sale: '22.00',
         title: 'Cantilever chair',
     },
     {
-        id: 3,
+        id: 15,
         img: 'image\ 31.png',
         price: '42.00',
         sale: '22.00',
         title: 'Cantilever chair',
     },
     {
-        id: 4,
+        id: 16,
         img: 'image\ 32.png',
         price: '42.00',
         sale: '22.00',
@@ -134,25 +134,25 @@ const trendingsItems = [
 
 const categoriesSectionEItem = [
     {
-        id: 1,
+        id: 17,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
     },
     {
-        id: 2,
+        id: 18,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
     },
     {
-        id: 3,
+        id: 19,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
     },
     {
-        id: 4,
+        id: 20,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
@@ -161,25 +161,25 @@ const categoriesSectionEItem = [
 
 const categoriesSectionFItem = [
     {
-        id: 1,
+        id: 21,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
     },
     {
-        id: 2,
+        id: 22,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
     },
     {
-        id: 3,
+        id: 23,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
     },
     {
-        id: 4,
+        id: 24,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
@@ -188,25 +188,25 @@ const categoriesSectionFItem = [
 
 const categoriesSectionGItem = [
     {
-        id: 1,
+        id: 25,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
     },
     {
-        id: 2,
+        id: 26,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
     },
     {
-        id: 3,
+        id: 27,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
     },
     {
-        id: 4,
+        id: 28,
         title: "Mini LCW Chair",
         img: "image\ 1168.png",
         price: "56.00"
@@ -216,42 +216,42 @@ const categoriesSectionGItem = [
 
 const latestItems = [
     {
-        id: 1,
+        id: 29,
         title: "Comfort Handy Craft",
         price: "65.00",
         sale: "42.00",
         img: "image\ 1166.png",
     },
     {
-        id: 2,
+        id: 30,
         title: "Comfort Handy Craft",
         price: "65.00",
         sale: "42.00",
         img: "image\ 1168.png",
     },
     {
-        id: 3,
+        id: 31,
         title: "Comfort Handy Craft",
         price: "65.00",
         sale: "42.00",
         img: "image\ 32.png",
     },
     {
-        id: 4,
+        id: 32,
         title: "Comfort Handy Craft",
         price: "65.00",
         sale: "42.00",
         img: "image\ 23.png",
     },
     {
-        id: 5,
+        id: 33,
         title: "Comfort Handy Craft",
         price: "65.00",
         sale: "42.00",
         img: "image\ 32.png",
     },
     {
-        id: 6,
+        id: 34,
         title: "Comfort Handy Craft",
         price: "65.00",
         sale: "42.00",
@@ -262,19 +262,19 @@ const latestItems = [
 
 const offerItems = [
     {
-        id: 1,
+        id: 35,
         img: "free-delivery\ 1.png"
     },
     {
-        id: 2,
+        id: 36,
         img: "cashback\ 1.png"
     },
     {
-        id: 3,
+        id: 37,
         img: "premium-quality\ 1.png"
     },
     {
-        id: 4,
+        id: 38,
         img: "24-hours-support\ 1.png"
     }
 ]
@@ -283,13 +283,13 @@ featuredItemsSectionA.forEach((item) => {
     const featuredHTML = `
     <div class="container__products-featured-items-item product-id" data-id="${item.id}">
         <div class="container__products-featured-items-item-vis">
-            <div class="container__products-featured-items-item-vis-img product-img" style="background-image: url('./../img/product-img/${item.img}');"></div>
+            <div class="container__products-featured-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}');"></div>
         </div>
         <div class="container__products-featured-items-item-info">
             <div class="container__products-featured-items-item-info-title product-title">Cantilever chair</div>
             <div class="container__products-featured-items-item-info-line"><div class="line"></div><div class="line"></div><div class="line"></div></div>
             <div class="container__products-featured-items-item-info-code">Code - Y523201</div>
-            <div class="container__products-featured-items-item-info-price product-price" data-cart>$${item.price}</div>
+            <div class="container__products-featured-items-item-info-price product-price" data-cart>${item.price} $</div>
         </div>
     </div>`
     featuredWindowSectionA.insertAdjacentHTML('beforeend', featuredHTML);
@@ -299,10 +299,10 @@ featuredItemsSectionB.forEach((item) => {
     const featuredHTML = `
     <div class="container__products-featured-items-item product-id" data-id="${item.id}">
         <div class="container__products-featured-items-item-vis">
-            <div class="container__products-featured-items-item-vis-img product-img" style="background-image: url('./../img/product-img/${item.img}');"></div>
+            <div class="container__products-featured-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}');"></div>
         </div>
         <div class="container__products-featured-items-item-info">
-            <div class="container__products-featured-items-item-info-title">Cantilever chair</div>
+            <div class="container__products-featured-items-item-info-title product-title">Cantilever chair</div>
             <div class="container__products-featured-items-item-info-line"><div class="line"></div><div class="line"></div><div class="line"></div></div>
             <div class="container__products-featured-items-item-info-code">Code - Y523201</div>
             <div class="container__products-featured-items-item-info-price product-price" data-cart>$${item.price}</div>
@@ -315,10 +315,10 @@ featuredItemsSectionC.forEach((item) => {
     const featuredSectionCHTML = `
     <div class="container__products-featured-items-item product-id" data-id="${item.id}">
         <div class="container__products-featured-items-item-vis">
-            <div class="container__products-featured-items-item-vis-img product-img" style="background-image: url('./../img/product-img/${item.img}');"></div>
+            <div class="container__products-featured-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}');"></div>
         </div>
         <div class="container__products-featured-items-item-info">
-            <div class="container__products-featured-items-item-info-title">Cantilever chair</div>
+            <div class="container__products-featured-items-item-info-title product-title">Cantilever chair</div>
             <div class="container__products-featured-items-item-info-line"><div class="line"></div><div class="line"></div><div class="line"></div></div>
             <div class="container__products-featured-items-item-info-code">Code - Y523201</div>
             <div class="container__products-featured-items-item-info-price product-price" data-cart>$${item.price}</div>
@@ -331,13 +331,13 @@ latestItems.forEach((item) => {
     const latestHTML =`
     <div class="container__products-latest-items-item product-id" data-id="${item.id}">
         <div class="container__products-latest-items-item-vis">
-            <div class="container__products-latest-items-item-vis-img product-img" style="background-image: url('./../img/product-img/${item.img}');"></div>
+            <div class="container__products-latest-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}');"></div>
         </div>
         <div class="container__products-latest-items-item-info">
-            <div class="container__products-latest-items-item-info-title">Comfort Handy Craft</div>
+            <div class="container__products-latest-items-item-info-title product-title">Comfort Handy Craft</div>
             <div class="container__products-latest-items-item-info-price" data-cart>
-                <div class="container__products-latest-items-item-info-price-sale product-price">$${item.sale}</div>
-                <div class="container__products-latest-items-item-info-price-full">$${item.price}</div>
+                <div class="container__products-latest-items-item-info-price-sale product-price" data-cart>$${item.sale}</div>
+                <div class="container__products-latest-items-item-info-price-full" data-cart>$${item.price}</div>
             </div>
         </div>
     </div>`
@@ -357,12 +357,12 @@ offerItems.forEach((item) => {
 trendingsItems.forEach((item) => {
     const trendingsHTML =`
     <div class="container__products-trendings-items-item product-id" data-id="${item.id}">
-        <div class="container__products-trendings-items-item-img product-img" style="background-image: url('./../img/product-img/trending/${item.img}');"></div>
+        <div class="container__products-trendings-items-item-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/trending/${item.img}');"></div>
         <div class="container__products-trendings-items-item-info">
-            <div class="container__products-trendings-items-item-info-title">Cantilever chair</div>
+            <div class="container__products-trendings-items-item-info-title product-title">Cantilever chair</div>
             <div class="container__products-trendings-items-item-info-price" data-cart>
-                <div class="container__products-trendings-items-item-info-price-sale product-price">$${item.sale}</div>
-                <div class="container__products-trendings-items-item-info-price-full">$${item.price}</div>
+                <div class="container__products-trendings-items-item-info-price-sale product-price" data-cart>$${item.sale}</div>
+                <div class="container__products-trendings-items-item-info-price-full" data-cart>$${item.price}</div>
             </div>
         </div>
     </div>`
@@ -375,10 +375,10 @@ categoriesSectionEItem.forEach((item) => {
         <div class="container__products-categ-sections-items-item-img">
             <div class="container__products-categ-sections-items-item-img-backg" style="display: none;"></div>
             <div class="container__products-categ-sections-items-item-img-ball"></div>
-            <div class="container__products-categ-sections-items-item-img-pic product-img" style="background-image: url('./../img/product-img/${item.img}')"></div>
+            <div class="container__products-categ-sections-items-item-img-pic product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}')"></div>
         </div>
         <div class="container__products-categ-sections-items-item-info">
-            <div class="container__products-categ-sections-items-item-info-title">${item.title}</div>
+            <div class="container__products-categ-sections-items-item-info-title product-title">${item.title}</div>
             <div class="container__products-categ-sections-items-item-info-price product-price" data-cart>$${item.price}</div>
         </div>
     </div>`;
@@ -391,10 +391,10 @@ categoriesSectionFItem.forEach((item) => {
         <div class="container__products-categ-sections-items-item-img">
             <div class="container__products-categ-sections-items-item-img-backg" style="display: none;"></div>
             <div class="container__products-categ-sections-items-item-img-ball"></div>
-            <div class="container__products-categ-sections-items-item-img-pic product-img" style="background-image: url('./../img/product-img/${item.img}')"></div>
+            <div class="container__products-categ-sections-items-item-img-pic product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}')"></div>
         </div>
         <div class="container__products-categ-sections-items-item-info">
-            <div class="container__products-categ-sections-items-item-info-title">${item.title}</div>
+            <div class="container__products-categ-sections-items-item-info-title product-title">${item.title}</div>
             <div class="container__products-categ-sections-items-item-info-price product-price" data-cart>$${item.price}</div>
         </div>
     </div>`;
@@ -407,45 +407,12 @@ categoriesSectionGItem.forEach((item) => {
         <div class="container__products-categ-sections-items-item-img">
             <div class="container__products-categ-sections-items-item-img-backg" style="display: none;"></div>
             <div class="container__products-categ-sections-items-item-img-ball"></div>
-            <div class="container__products-categ-sections-items-item-img-pic product-img" style="background-image: url('./../img/product-img/${item.img}')"></div>
+            <div class="container__products-categ-sections-items-item-img-pic product-img" src="item.img" style="background-image: url('./../img/product-img/${item.img}')"></div>
         </div>
         <div class="container__products-categ-sections-items-item-info">
-            <div class="container__products-categ-sections-items-item-info-title">${item.title}</div>
+            <div class="container__products-categ-sections-items-item-info-title product-title">${item.title}</div>
             <div class="container__products-categ-sections-items-item-info-price product-price" data-cart>$${item.price}</div>
         </div>
     </div>`;
     categoriesWindowSectionG.insertAdjacentHTML('beforeend', categoriesSectionGHTML);
 })
-
-
-// const slideIndex = 1;
-// showSlides(slideIndex);
-
-// function plusSlide(n) {
-//     showSlides(slideIndex += n);
-// }
-
-// function currentskide(n) {
-//     showSlides(slideIndex=n);
-// }
-
-// function showSlides(n) {
-//     var i;
-//     const slides = document.querySelectorAll('.slider__item');
-//     const navs = document.querySelectorAll('.slider__item');
-
-//     if(n > slides.length) {
-//         slideIndex = 1;
-//     }
-//     if(n < 1) {
-//         slideIndex=slides.length;
-//     }
-//     for(i=0; i< slides.length; i++) {
-//         slides[i].style.display="none";
-//     }
-//     for(i = 0; i < navs.length; i++) {
-//         navs[i].className=navs[i].className.replace("nav-active","");
-//     }
-//     slides[slideIndex-1].style.display='grid';
-//     navs[slideIndex-1].classList.add('nav-active');
-// }

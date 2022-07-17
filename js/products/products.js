@@ -102,19 +102,19 @@ const productsShopWindow = document.querySelector('.products-shop-window');
 const productsArrayType = productsArray.filter((item) => {
     if(item.type === "shop") {
         const productsArrayHTML = `
-        <div class="container__shop-items-item" data-id=${item.id}>
+        <div class="container__shop-items-item product-id" data-id=${item.id}>
             <div class="container__shop-items-item-img">
-                <div class="container__shop-items-item-img-pic" style="background-image: url('./img/product-img/shop/${item.img}')"></div>
+                <div class="container__shop-items-item-img-pic product-img" src="${item.img}" style="background-image: url('./img/product-img/shop/${item.img}')"></div>
             </div>
-            <div class="container__shop-items-item-title">${item.title}</div>
+            <div class="container__shop-items-item-title product-title">${item.title}</div>
             <div class="container__shop-items-item-nav">
                 <span class="container__shop-items-item-nav-ball"></span>
                 <span class="container__shop-items-item-nav-ball"></span>
                 <span class="container__shop-items-item-nav-ball"></span>
             </div>
-            <div class="container__shop-items-item-price">
-                <div class="container__shop-items-item-price-sale">$${item.sale}</div>
-                <div class="container__shop-items-item-price-real">$${item.price}</div>
+            <div class="container__shop-items-item-price" data-cart>
+                <div class="container__shop-items-item-price-sale product-price" data-cart>$${item.sale}</div>
+                <div class="container__shop-items-item-price-real" data-cart>$${item.price}</div>
             </div>
         </div>`
         productsShopWindow.insertAdjacentHTML('beforeend', productsArrayHTML);
