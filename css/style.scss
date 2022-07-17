@@ -909,6 +909,7 @@ $navigateBlogColor: #E0D3F5;
     }
     &__blog {
         padding-bottom: 115px;
+        gap: 15px;
         &-title {
             padding-bottom: 80px;
             text-align: center;
@@ -2103,6 +2104,14 @@ $navigateBlogColor: #E0D3F5;
                     }
                 }
             }
+            &-menu {
+                display: none;
+            }
+            &-page {
+                & .slider__indicators {
+                    width: 800px !important;
+                }
+            }
         }
     }
     .slider__items {
@@ -2247,6 +2256,11 @@ $navigateBlogColor: #E0D3F5;
             &-title {
                 padding-bottom: 40px;
             }
+            &-page {
+                & .slider__indicators {
+                    width: 600px !important;
+                }
+            }
         }
     }
     .footer {
@@ -2295,6 +2309,9 @@ $navigateBlogColor: #E0D3F5;
     .box {
         width: 320px !important;
         &-px1050 {
+            width: 320px !important;
+        }
+        &-account {
             width: 320px !important;
         }
     }
@@ -2366,6 +2383,21 @@ $navigateBlogColor: #E0D3F5;
                     &-img {
                         width: 120px;
                         height: 100px !important;
+                    }
+                }
+            }
+            &-page {
+                & .slider__indicators {
+                    width: 320px !important;
+                }
+                &-items {
+                    &-item {
+                        &-page {
+                            &-img {
+                                background-size: cover;
+                                background-position: center;
+                            }
+                        }
                     }
                 }
             }
@@ -2472,6 +2504,16 @@ $navigateBlogColor: #E0D3F5;
         }
         .slider__items {
             width: 320px !important;
+        }
+        &__account {
+            font-size: 14px;
+            &-btn {
+                width: 320px !important;
+            }
+            & input {
+                height: 40px;
+                font-size: 14px;
+            }
         }
     }
     .footer  {
