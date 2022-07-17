@@ -1713,7 +1713,7 @@ $navigateBlogColor: #E0D3F5;
                 color: $textGreyColor;
                 font-size: 14px;
                 align-items: center;
-                &-plus {
+                &-block {
                     width: 16px;
                     height: 16px;
                     &::before {
@@ -1723,18 +1723,9 @@ $navigateBlogColor: #E0D3F5;
                         display: inline-block;
                         width: 16px;
                         height: 16px;
-                    }
-                }
-                &-minus {
-                    width: 16px;
-                    height: 16px;
-                    &::before {
-                        content: url('./../img/icon/bar-icon/akar-icons_chevron-down.svg');
-                        display: inline-block;
-                        background-color: $textGreyColor;
-                        transform: rotate(180deg);
-                        width: 16px;
-                        height: 16px;
+                        &:first-child {
+                            transform: rotate(180deg);
+                        }
                     }
                 }
             }
@@ -1855,6 +1846,9 @@ $navigateBlogColor: #E0D3F5;
     .box {
         width: 800px !important;
         &-px1050 {
+            width: 800px !important;
+        }
+        &__error {
             width: 800px !important;
         }
     }
@@ -2113,6 +2107,14 @@ $navigateBlogColor: #E0D3F5;
                 }
             }
         }
+        &__error {
+            &-img {
+                width: 800px !important;
+                height: 640px;
+                background-size: cover;
+                background-position: center;
+            }
+        }
     }
     .slider__items {
         width: 800px !important;
@@ -2138,6 +2140,9 @@ $navigateBlogColor: #E0D3F5;
     .box {
         width: 600px !important;
         &-px1050 {
+            width: 600px !important;
+        }
+        &__error {
             width: 600px !important;
         }
     }
@@ -2262,6 +2267,15 @@ $navigateBlogColor: #E0D3F5;
                 }
             }
         }
+        &__error {
+            padding-bottom: 55px;
+            &-img {
+                width: 550px !important;
+                height: 550px;
+                background-size: cover;
+                background-position: center;
+            }
+        }
     }
     .footer {
         &-main {
@@ -2304,6 +2318,36 @@ $navigateBlogColor: #E0D3F5;
         padding: 10px 20px !important;
         font-size: 14px !important;
     }
+    .cart {
+        &-wrapper {
+            width: 320px !important;
+        }
+        &-block {
+            &-item {
+                &-img {
+                    width: 35px;
+                    height: 35px;
+                }
+                &-current {
+                    font-size: 12px;
+                    &-block {
+                        font-size: 10px;
+                        &::before {
+                            width: 10px !important;
+                            height: 10px !important;
+                            font-size: 10px;
+                        }
+                    }
+                }
+                &-title {
+                    font-size: 12px;
+                }
+                &-price {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 600px) {
     .box {
@@ -2312,6 +2356,9 @@ $navigateBlogColor: #E0D3F5;
             width: 320px !important;
         }
         &-account {
+            width: 320px !important;
+        }
+        &__error {
             width: 320px !important;
         }
     }
@@ -2513,6 +2560,12 @@ $navigateBlogColor: #E0D3F5;
             & input {
                 height: 40px;
                 font-size: 14px;
+            }
+        }
+        &__error {
+            &-img {
+                width: 320px !important;
+                height: 320px;
             }
         }
     }

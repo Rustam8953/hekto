@@ -38,9 +38,9 @@ window.addEventListener('click', (e) => {
                     
                     <div class="cart-block-item-right">
                         <div class="cart-block-item-current">
-                            <div class="cart-block-item-current-minus" data-action="minus"></div>
+                            <div class="cart-block-item-current-block" data-action="minus"></div>
                             <div class="cart-block-item-current-num" data-counter>0</div>
-                            <div class="cart-block-item-current-plus" data-action="plus"></div>
+                            <div class="cart-block-item-current-block" data-action="plus"></div>
                         </div>
                         <div class="cart-block-item-price">${productsInfo.price}</div>
                     </div>
