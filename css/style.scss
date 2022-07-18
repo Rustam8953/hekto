@@ -36,6 +36,9 @@ $contactGreenBallColor: #1BE982;
 $userBckgBlogColor: #FFE7F9;
 $borderInputBlogPage: #BDBDD8;
 $navigateBlogColor: #E0D3F5;
+$cartCurrentBlock: #F0EFF2;
+$cartCurrentFunColor: #E7E7EF;
+$cartCurrentFontColor: #BEBFC2;
 
 .box {
     width: 1177px !important;
@@ -1710,23 +1713,18 @@ $navigateBlogColor: #E0D3F5;
             &-current {
                 display: flex;
                 gap: 5px;
-                color: $textGreyColor;
+                color: $cartCurrentFontColor;
                 font-size: 14px;
                 align-items: center;
+                background-color: $cartCurrentBlock;
                 &-block {
-                    width: 16px;
-                    height: 16px;
-                    &::before {
-                        content: url('./../img/icon/bar-icon/akar-icons_chevron-down.svg');
-                        font-size: 14px;
-                        background-color: $textGreyColor;
-                        display: inline-block;
-                        width: 16px;
-                        height: 16px;
-                        &:first-child {
-                            transform: rotate(180deg);
-                        }
-                    }
+                    width: 12px;
+                    height: 15px;
+                    background-color: $cartCurrentFunColor;
+                    font-size: 14px;
+                    display: flex;
+                    justify-content: center;
+                    cursor: pointer;
                 }
             }
         }
@@ -1757,6 +1755,9 @@ $navigateBlogColor: #E0D3F5;
     .box {
         width: 1000px !important;
         &-px1050 {
+            width: 1000px !important;
+        }
+        &__contact {
             width: 1000px !important;
         }
     }
@@ -1837,6 +1838,24 @@ $navigateBlogColor: #E0D3F5;
                 justify-content: center;
             }
         }
+        &__contact {
+            font-size: 12px;
+            &-title {
+                font-size: 24px;
+            }
+            &-img {
+                width: 523px;
+                height: 492px;
+                background-size: cover;
+                right: 0px;
+            }
+            &-touch {
+                width: 450px;
+                &-mail {
+                    width: 450px;
+                }
+            }
+        }
     }
     .slider__items {
         width: 1000px !important;
@@ -1849,6 +1868,9 @@ $navigateBlogColor: #E0D3F5;
             width: 800px !important;
         }
         &__error {
+            width: 800px !important;
+        }
+        &__contact {
             width: 800px !important;
         }
     }
@@ -2115,6 +2137,12 @@ $navigateBlogColor: #E0D3F5;
                 background-position: center;
             }
         }
+        &__contact {
+            &-img {
+                width: 350px;
+                height: 350px;
+            }
+        }
     }
     .slider__items {
         width: 800px !important;
@@ -2143,6 +2171,9 @@ $navigateBlogColor: #E0D3F5;
             width: 600px !important;
         }
         &__error {
+            width: 600px !important;
+        }
+        &__contact {
             width: 600px !important;
         }
     }
@@ -2276,6 +2307,17 @@ $navigateBlogColor: #E0D3F5;
                 background-position: center;
             }
         }
+        &__contact {
+            padding: 35px 0 45px;
+            &-img {
+                display: none;
+            }
+            &-top  {
+                flex-direction: column;
+                padding-bottom: 65px;
+                
+            }
+        }
     }
     .footer {
         &-main {
@@ -2359,6 +2401,9 @@ $navigateBlogColor: #E0D3F5;
             width: 320px !important;
         }
         &__error {
+            width: 320px !important;
+        }
+        &__contact {
             width: 320px !important;
         }
     }
@@ -2566,6 +2611,24 @@ $navigateBlogColor: #E0D3F5;
             &-img {
                 width: 320px !important;
                 height: 320px;
+            }
+        }
+        &__contact {
+            &-top {
+                &-info {
+                    width: 320px;
+                }
+                &-way {
+                    width: 320px;
+                }
+            }
+            &-touch {
+                &-mail {
+                    width: 320px;
+                    &-subject {
+                        margin: 15px 0 17px;
+                    }
+                }
             }
         }
     }
