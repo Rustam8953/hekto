@@ -283,7 +283,7 @@ featuredItemsSectionA.forEach((item) => {
     const featuredHTML = `
     <div class="container__products-featured-items-item product-id" data-id="${item.id}">
         <div class="container__products-featured-items-item-vis">
-            <div class="container__products-featured-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}');"></div>
+            <div class="container__products-featured-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./img/product-img/${item.img}');"></div>
         </div>
         <div class="container__products-featured-items-item-info">
             <div class="container__products-featured-items-item-info-title product-title">Cantilever chair</div>
@@ -299,7 +299,7 @@ featuredItemsSectionB.forEach((item) => {
     const featuredHTML = `
     <div class="container__products-featured-items-item product-id" data-id="${item.id}">
         <div class="container__products-featured-items-item-vis">
-            <div class="container__products-featured-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}');"></div>
+            <div class="container__products-featured-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./img/product-img/${item.img}');"></div>
         </div>
         <div class="container__products-featured-items-item-info">
             <div class="container__products-featured-items-item-info-title product-title">Cantilever chair</div>
@@ -315,7 +315,7 @@ featuredItemsSectionC.forEach((item) => {
     const featuredSectionCHTML = `
     <div class="container__products-featured-items-item product-id" data-id="${item.id}">
         <div class="container__products-featured-items-item-vis">
-            <div class="container__products-featured-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}');"></div>
+            <div class="container__products-featured-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./img/product-img/${item.img}');"></div>
         </div>
         <div class="container__products-featured-items-item-info">
             <div class="container__products-featured-items-item-info-title product-title">Cantilever chair</div>
@@ -331,7 +331,7 @@ latestItems.forEach((item) => {
     const latestHTML =`
     <div class="container__products-latest-items-item product-id" data-id="${item.id}">
         <div class="container__products-latest-items-item-vis">
-            <div class="container__products-latest-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}');"></div>
+            <div class="container__products-latest-items-item-vis-img product-img" src="${item.img}" style="background-image: url('./img/product-img/${item.img}');"></div>
         </div>
         <div class="container__products-latest-items-item-info">
             <div class="container__products-latest-items-item-info-title product-title">Comfort Handy Craft</div>
@@ -357,7 +357,7 @@ offerItems.forEach((item) => {
 trendingsItems.forEach((item) => {
     const trendingsHTML =`
     <div class="container__products-trendings-items-item product-id" data-id="${item.id}">
-        <div class="container__products-trendings-items-item-img product-img" src="${item.img}" style="background-image: url('./../img/product-img/trending/${item.img}');"></div>
+        <div class="container__products-trendings-items-item-img product-img" src="${item.img}" style="background-image: url('./img/product-img/trending/${item.img}');"></div>
         <div class="container__products-trendings-items-item-info">
             <div class="container__products-trendings-items-item-info-title product-title">Cantilever chair</div>
             <div class="container__products-trendings-items-item-info-price" data-cart>
@@ -375,7 +375,7 @@ categoriesSectionEItem.forEach((item) => {
         <div class="container__products-categ-sections-items-item-img">
             <div class="container__products-categ-sections-items-item-img-backg" style="display: none;"></div>
             <div class="container__products-categ-sections-items-item-img-ball"></div>
-            <div class="container__products-categ-sections-items-item-img-pic product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}')"></div>
+            <div class="container__products-categ-sections-items-item-img-pic product-img" src="${item.img}" style="background-image: url('./img/product-img/${item.img}')"></div>
         </div>
         <div class="container__products-categ-sections-items-item-info">
             <div class="container__products-categ-sections-items-item-info-title product-title">${item.title}</div>
@@ -391,7 +391,7 @@ categoriesSectionFItem.forEach((item) => {
         <div class="container__products-categ-sections-items-item-img">
             <div class="container__products-categ-sections-items-item-img-backg" style="display: none;"></div>
             <div class="container__products-categ-sections-items-item-img-ball"></div>
-            <div class="container__products-categ-sections-items-item-img-pic product-img" src="${item.img}" style="background-image: url('./../img/product-img/${item.img}')"></div>
+            <div class="container__products-categ-sections-items-item-img-pic product-img" src="${item.img}" style="background-image: url('./img/product-img/${item.img}')"></div>
         </div>
         <div class="container__products-categ-sections-items-item-info">
             <div class="container__products-categ-sections-items-item-info-title product-title">${item.title}</div>
@@ -407,7 +407,7 @@ categoriesSectionGItem.forEach((item) => {
         <div class="container__products-categ-sections-items-item-img">
             <div class="container__products-categ-sections-items-item-img-backg" style="display: none;"></div>
             <div class="container__products-categ-sections-items-item-img-ball"></div>
-            <div class="container__products-categ-sections-items-item-img-pic product-img" src="item.img" style="background-image: url('./../img/product-img/${item.img}')"></div>
+            <div class="container__products-categ-sections-items-item-img-pic product-img" src="item.img" style="background-image: url('./img/product-img/${item.img}')"></div>
         </div>
         <div class="container__products-categ-sections-items-item-info">
             <div class="container__products-categ-sections-items-item-info-title product-title">${item.title}</div>
