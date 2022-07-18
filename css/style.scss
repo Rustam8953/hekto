@@ -2179,9 +2179,9 @@ $cartCurrentFontColor: #BEBFC2;
     }
     .container {
         &__img {
-            padding-top: 36px !important;
             &-box {
                 width: 600px;
+                height: 65px;
                 overflow: hidden;
             }
         }
@@ -2592,6 +2592,7 @@ $cartCurrentFontColor: #BEBFC2;
         &__img {
             &-box {
                 width: 320px;
+                height: 30px;
             }
         }
         .slider__items {

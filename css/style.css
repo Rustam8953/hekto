@@ -2313,11 +2313,9 @@
   .box__contact {
     width: 600px !important;
   }
-  .container__img {
-    padding-top: 36px !important;
-  }
   .container__img-box {
     width: 600px;
+    height: 65px;
     overflow: hidden;
   }
   .container__promotion-img1 {
@@ -2644,6 +2642,7 @@
   }
   .container__img-box {
     width: 320px;
+    height: 30px;
   }
   .container .slider__items {
     width: 320px !important;
