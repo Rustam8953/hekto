@@ -34,7 +34,7 @@ const blogItems = [
 blogItems.forEach((item) => {
     const latestBlogHTML = `
         <div class="container__blog-items-item" data-id="${item.id}">
-            <div class="container__blog-items-item-img"style="background-image: url('./../img/latest-blog/${item.img}');"></div>
+            <div class="container__blog-items-item-img"style="background-image: url('./img/latest-blog/${item.img}');"></div>
             <div class="container__blog-items-info">
                 <div class="container__blog-items-item-data">
                     <div class="container__blog-items-item-data-user">${item.user}</div>

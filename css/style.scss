@@ -324,10 +324,11 @@ $cartCurrentFontColor: #BEBFC2;
         &-featured {
             &-block {
                 width: 100%;
-                height: 360px;
+                height: 380px;
                 overflow: hidden;
                 position: relative;
                 display: flex;
+                align-items: center;
                 &-slider {
                     & .slider__items {
                         width: 1177px !important;

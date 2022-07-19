@@ -16,13 +16,13 @@ const headerHTML = `
                 <div class="header__bar-info-wishlist header__bar-info">Wishlist  </div>
                 <div class="header__bar-info-cart">
                     <div class="header__bar-info-cart-icon"></div>
-                    <div class="cart-length display-none"></div>
+                    <div class="cart-length"></div>
                     <div class="cart-wrapper display-none">
                         <div class="cart-block-text">Корзина пуста</div>
                         <div class="cart-block"></div>
                         <div class="cart-fun">
                             <div class="cart-fun-total total-price">0</div>
-                            <a href=""><button class="cart-btn btn">Submit</div></a>
+                            <a href="cart-page.html"><button class="cart-btn btn">Submit</div></a>
                         </div>
                     </div>
                 </div>
